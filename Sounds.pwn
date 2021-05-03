@@ -15,7 +15,7 @@ enum E_SAMP_SOUNDS
 	Sound[35],
 	soundid,
 }
-new SAMP_Sounds[][E_SAMP_SOUNDS] = {
+new const SAMP_Sounds[][E_SAMP_SOUNDS] = {
 	{ "NULL", 1068 },
 	{ "ACCEPT", 17000 },
 	{ "AIR_HORN_L", 3200 },
